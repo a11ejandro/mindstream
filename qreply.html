@@ -1,0 +1,30 @@
+<div id="answer" style="position: fixed; display: block; top: 80px; right: 0px; background: #ffe4c4; border: 1px solid black; z-index: 10;">
+	<div class="aheader">Ответ</div>
+
+	
+	<form name="Answer form" action = "add.php" enctype="multipart/form-data" method = "post">
+		<div class="apost">
+			<div>
+				<input name="E-mail" type='text' placeholder="E-mail" id="aemail"/>
+			</div>
+			
+			<div id="asubmit">
+				<input type="submit" name="send" value="Отправить"/>
+			</div>
+			
+			<div>
+				<textarea name="Text" cols="45" rows="6" placeholder="Введите сообщение"></textarea>
+			</div>
+			
+			<div class="format">
+				<img src="Style/bold.png" class="makebold">  <img src="Style/italic.png" class="makeitalic"> <img src="Style/spoiler.png" class="makespoiler">
+			</div>
+			
+			<div id="afile">
+				<input type="file" name="uploadFile">
+				<input type="hidden" name="MAX_FILE_SIZE" value="4096000">
+			</div>
+		</div>
+	</form>
+
+</div>

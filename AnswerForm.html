@@ -1,0 +1,11 @@
+<h3 align=center>Ответ</h3>
+<table name = 'answer' align = 'center'>
+<form align=center action = "add.php" enctype="multipart/form-data" method = "post">
+	<tr> <td>E-mail:</td> <td><input type = "text" name = "E-mail"/> </td></tr>
+	<tr> <td>Сообщение:</td> <td> <textarea name="Text" cols="50" rows="5"></textarea></td></tr>
+	<tr> <td></td> <td><img src="Style/bold.png" class="makebold">  <img src="Style/italic.png" class="makeitalic"> <img src="Style/spoiler.png" class="makespoiler"> </td></tr>
+	<tr> <td>Внешний файл:</td> <td> <input type = "Text" name = "Outer_File"/></td></tr>
+	<tr><td>Файл:</td> <td><input type="file" name="uploadFile">
+	<input type="hidden" name="MAX_FILE_SIZE" value="4096000"/>
+	<input type="submit" name="send" value="Отправить"/></td></tr>
+</form>

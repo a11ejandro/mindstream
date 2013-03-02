@@ -1,0 +1,35 @@
+.post-container {
+	 border:1px solid black;
+	 background: #D3D3D3;
+	 padding: 10px;
+	 max-width: 100%;
+	 max-height: 50%;
+	 word-wrap: break-word;
+	 overflow-x: auto;
+	 overflow-y: auto;
+}
+
+.post-text {
+	max-width: 100%;
+	max-height: 50%;
+	word-wrap: break-word;
+		 overflow-x: auto;
+	 overflow-y: auto
+	}
+
+
+.image-container {
+	}
+	
+	
+#postNumber {
+	color: #FF4500;
+}
+
+
+.expand_exp {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('Style/Expand.png');
+}

@@ -1,0 +1,120 @@
+html, body {
+	position: relative;
+	height: 100%;
+
+}
+#footer {
+	clear: both;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	bottom: 5px;
+	padding-top: 30px;
+}
+
+#highlight {
+	position: relative;
+	z-index: 2;
+	display: none;
+}
+.post-container {
+	 background: #ffe4c4;
+	 padding: 5px 10px 10px 10px;
+	 margin: 10px;
+	 min-width: 270px;
+	 max-width: 100%;
+	 word-wrap: break-word;
+	 overflow: auto;
+	 display: table;
+	 position: relative;
+	 z-index: 1;
+}
+
+#highlight .post-container {
+	border: 1px solid black;
+	margin: 0px;
+	position: relative;
+}
+
+.post-text {
+	max-width: 100%;
+	max-height: 400px;
+	word-wrap: break-word;
+	overflow: auto;
+	
+	}
+.postNumber {
+	cursor: pointer;
+}
+
+.image-container {
+	position: static;
+	}
+	
+	
+.postHeader {
+	font-size: 18px;
+}
+
+
+.Expand{
+	display: block-inline;
+	cursor: pointer;
+	margin-left: 15px; 
+}
+
+.spoiler {
+	background: none repeat scroll 0% 0% rgb(187, 187, 187);
+	background-color: rgb(187, 187, 187);
+	color: rgb(187, 187, 187);
+}
+
+.spoiler:hover {color: black};
+
+
+
+#answer {
+	display: block;
+	position: fixed;
+	top: 80px;
+	right: 0px;
+	width: auto;
+	background-color: #F5F5DC;
+	z-index: 0;
+}
+
+.aheader {
+	text-align: center; 
+	background: #e9967a;
+	color: black;
+	height: 30px;
+	font-size: 25px;
+	margin: 0px 0px 10px 0px;
+}
+
+#aemail {
+	width: 210px;
+	float: left;
+	display: block;
+}
+
+#answer textarea {
+	min-width: 330px;
+	min-height: 80px;
+	display: block;
+	float: left;
+}
+
+.asubmit {
+	margin-left: 40px;
+}
+
+.apost {
+	padding: 5px;
+}
+
+div.format img {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
